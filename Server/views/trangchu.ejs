@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo Socket IO</title>
+     <script src="http://code.jquery.com/jquery-latest.js"></script>
+     <script src="/socket.io/socket.io.js"></script>
+     <script src="xuly.js"></script>
+     <link rel="stylesheet" type="text/css" href="layout.css"/>
+     <style>
+      h3 {
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+      }
+      </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="XemTS">
+        <div id="XemThongSo">
+          <h3>CẢM BIẾN</h3>
+          <input type="button" value="XEM CẢM BIẾN" id="btnXTS"/>
+          <div id="listXTS">
+          </div>
+        </div>
+
+        <div id="XemThongSoDC">
+          <h3>XEM CÀI ĐẶT CẢM BIẾN</h3>
+          <input type="button" value="XEM CÀI ĐẶT" id="btnXTSDC"/>
+          <div id="listXTSDC">
+          </div>
+        </div>
+      </div>
+      <div id="DieuChinhADC">
+        <h3>CÀI ĐẶT CẢM BIẾN</h3>
+        <input type="text" id="txtDCAnhSang"/>
+        <input type="button" value="ÁNH SÁNG" id="btnDCAnhSang"/>
+        <div id="listDCAnhSang">
+        </div>
+        <input type="text" id="txtDCDoAm"/>
+        <input type="button" value="ĐỘ ẨM" id="btnDCDoAm"/>
+        <div id="listDCDoAm">
+        </div>
+        <input type="text" id="txtDCNhietDo"/>
+        <input type="button" value="NHIỆT ĐỘ" id="btnDCNhietDo"/>
+        <div id="listDCNhietDo">
+        </div>
+        <input type="text" id="txtDCLuongMua"/>
+        <input type="button" value="LƯỢNG MƯA" id="btnDCLuongMua"/>
+        <div id="listDCLuongMua">
+        </div>
+      </div>
+
+      <div id="DieuChinhMotor">
+        <h3>SET CỨNG MOTOR</h3>
+        <input type="text" id="txtDCMaiChe"/>
+        <input type="button" value="MÁI CHE" id="btnDCMaiChe"/>
+        <div id="listDCMaiChe">
+        </div>
+        <input type="text" id="txtDCQuatThoang"/>
+        <input type="button" value="QUẠT THOÁNG" id="btnDCQuatThoang"/>
+        <div id="listDCQuatThoang">
+        </div>
+        <input type="text" id="txtDCBomTuoi"/>
+        <input type="button" value="BƠM TƯỚI" id="btnDCBomTuoi"/>
+        <div id="listDCBomTuoi">
+        </div>
+        <input type="text" id="txtDCBomThoat"/>
+        <input type="button" value="BƠM THOÁT" id="btnDCBomThoat"/>
+        <div id="listDCBomThoat">
+        </div>
+      </div>
+      <img width="40%" height="100%" src="https://scontent.fvca1-1.fna.fbcdn.net/v/t1.15752-9/102385199_698078800760331_2108500027471408254_n.jpg?_nc_cat=111&_nc_sid=b96e70&_nc_oc=AQkwgAsSNS5U38vp7L-ROF1ehFBoQkyH-T6lpxg7Il1fEppfPlaFGjd7_Wt1BY-nT7I&_nc_ht=scontent.fvca1-1.fna&oh=f4f269c73325a53793ec828b0b8ff0b4&oe=5F080B9B">
+    </div>
+  </body>
+</html>

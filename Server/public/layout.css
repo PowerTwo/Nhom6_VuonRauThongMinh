@@ -1,0 +1,48 @@
+body{background-color: #ffffff}
+#wrapper{width: 100% ; height: 100%; background-color: #bdc5bc}
+
+#XemTS{width:20%; height: 100%; float: left; background: #9ec024}
+/*#XemThongSo, #DieuChinhADC, #DieuChinhMotor{min-height:300px}*/
+#XemThongSo{width:100%; height: 50%; float: left; background: #4ce486}
+#btnXTS{width:100%; height:10%; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:medium; border-radius: 50%; background-color: #35bb69}
+#listXTS{height:60%; overflow: auto; background-color: #4ce486}
+
+#XemThongSoDC{width:100%; height: 50%; float: left; background: #2fbfd8}
+#btnXTSDC{width:100%; height:10%; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:medium ;border-radius: 50%; background-color: #28aec5}
+#listXTSDC{height: 60%; overflow: auto; background-color: #2fbfd8}
+
+#DieuChinhADC{width:20%; height: 100%; float: left; background: #ffb682}
+/*#listDCAnhSang, #listDCNhietDo, #listDCDoAm, #listDCLuongMua{min-height:100px}*/
+#listDCAnhSang{height: 16%; overflow: auto; background-color: #faae78}
+#txtDCAnhSang{height: 5%; width:49%; border-radius: 12px}
+#btnDCAnhSang{height: 5%; width:49%; border-radius: 50%}
+
+#listDCDoAm{height: 17%; overflow: auto; background-color: #fca05f}
+#txtDCDoAm{height: 5%; width:49%; border-radius: 12px}
+#btnDCDoAm{height: 5%; width:49%; border-radius: 50%}
+
+#listDCNhietDo{height: 17%; overflow: auto; background-color: #fc9449}
+#txtDCNhietDo{height: 5%; width:49%; border-radius: 12px}
+#btnDCNhietDo{height: 5%; width:49%; border-radius: 50%}
+
+#listDCLuongMua{height: 17%; overflow: auto; background-color: #f3802d}
+#txtDCLuongMua{height: 5%; width:49%; border-radius: 12px}
+#btnDCLuongMua{height: 5%; width:49%; border-radius: 50%}
+
+#DieuChinhMotor{width:20%; height: 100%; float:left; background: #ff8cb3}
+/*#listDCBomThoat, #listDCBomTuoi, #listDCMaiChe, #listDCQuatThoang{min-height:100px}*/
+#listDCMaiChe{height: 16%; overflow: auto; float:top; background-color: #fc75a2}
+#txtDCMaiChe{height: 5%; width:49%; border-radius: 12px}
+#btnDCMaiChe{height: 5%; width:49%; border-radius: 50%}
+
+#listDCQuatThoang{height: 17%; overflow: auto; float:top; background-color: #fc699a}
+#txtDCQuatThoang{height: 5%; width:49%; border-radius: 12px}
+#btnDCQuatThoang{height: 5%; width:49%; border-radius: 50%}
+
+#listDCBomTuoi{height: 17%; overflow: auto; float:top; background-color: #fd568e}
+#txtDCBomTuoi{height: 5%; width:49%; border-radius: 12px}
+#btnDCBomTuoi{height: 5%; width:49%; border-radius: 50%}
+
+#listDCBomThoat{height: 17%; overflow: auto; float:top; background-color: #ff3d7e}
+#txtDCBomThoat{height: 5%; width:49%; border-radius: 12px}
+#btnDCBomThoat{height: 5%; width:49%; border-radius: 50%}
